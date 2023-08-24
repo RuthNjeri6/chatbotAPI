@@ -25,6 +25,9 @@ This notebook employs Llama-2-7B-Chat model to execute question answering over P
 1. Open the specific notebook in Google collab and create a copy of the notebook.
    `reacto_gpt-3.5_indexing.ipynb`: [Open in Google Colab](https://drive.google.com/file/d/1mzTwoIsTDIyckkZqhrt1_wVD83wXIbM2/view?usp=sharing)  
    `reacto_llama-2_indexing.ipynb`: [Open in Google Colab](https://drive.google.com/file/d/1qxJPUB0da6nKar0aKnU4dLUqgT5a7sJM/view?usp=sharing)
+
+   **Note:** for llama-2 notebook, set the google collab runtime to T4 GPU.
+   
 2. Create a folder called `"documents"` at the root directory and upload your pdf files there
 
 3. Execute each cell in the notebook sequentially to load the PDF documents, generate embeddings, save them in the respective vector databases, and perform question answering.
