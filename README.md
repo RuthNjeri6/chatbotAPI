@@ -79,8 +79,9 @@ Response:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fastapi-api.git
-cd fastapi-api
+git clone https://github.com/Vitafluence-ai/reacto-w3.git
+cd reacto-w3
+git checkout -b ft-api origin/ft-api
 ```
 2. Set up a python virtual environment
 ```bash
